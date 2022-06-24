@@ -47,7 +47,7 @@ const checkSoc = batteryIsOk('soc', minsocRange, maxsocRange, 70, socRange, 'soc
 //checkSoc();
 expect(checkSoc()).to.be.true;
 
-const checkTemparuture = batteryIsOk('temperature', minTemperatureRange, maxTemperatureRange, 48, temperatureRange, 'temperature' );
+const checkTemparuture = batteryIsOk('temperature', minTemperatureRange, maxTemperatureRange, 35, temperatureRange, 'temperature' );
 //checkTemparuture();
 expect(checkTemparuture()).to.be.true;
 
